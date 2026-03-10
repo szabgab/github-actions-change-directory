@@ -14,12 +14,15 @@ jobs:
 
     - name: Experiment
       run: |
-        pwd             # /home/runner/work/try/try
+        pwd
+        # /home/runner/work/github-actions-change-directory/github-actions-change-directory
         mkdir hello
         cd hello
-        pwd             # /home/runner/work/try/try/hello
+        pwd
+        # /home/runner/work/github-actions-change-directory/github-actions-change-directory/hello
 
     - name: In another step
       run: |
         pwd
+        # /home/runner/work/github-actions-change-directory/github-actions-change-directory
 
